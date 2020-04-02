@@ -1,0 +1,240 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Oswald&display=swap');
+
+
+
+a:hover{
+	text-decoration: none;
+}
+body{
+	font-family: 'Lacquer', sans-serif;
+	background-color: #fff;
+}
+.section-content{
+	padding: 20px 0;
+}
+.page-title{
+	padding: 10px 0;
+}
+.page-title h1{
+	text-align: center;
+	color: #6c6b6b;
+}
+.header-area{
+	width: 50%;
+	height: 100vh;
+	position: relative;
+	float: left;
+}
+.header-top{
+	background: rgba(0, 0, 0, .8);
+	width: 100%;
+	overflow: hidden;
+	padding: 10px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+.menu-icon i{
+	float: right;
+	color: #fff;
+	padding: 15px;
+	font-size: 25px;
+	cursor: pointer;
+}
+.menu-icon i.fa-times{
+	display: none;
+}
+.menu{
+	background-color: #000;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	display: none;
+}
+.menu ul{
+	list-style: none;
+	padding: 0;
+}
+.menu ul li{}
+.menu ul li a{
+	color: #fff;
+	padding: 5px 10px;
+	display: block;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+}
+.header-slider img{
+	width: 100%;
+	height: 100vh;
+}
+
+/* main body */
+
+.main-body{
+	float: right;
+	width: 50%;
+	height: 100vh;
+	overflow: auto;
+}
+article{
+	padding: 10px 0;
+}
+article img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 5px;
+}
+article span{
+	font-family: 'Oswald', sans-serif;
+}
+article p{
+	margin-top: 5px;
+}
+
+.ebrite-post-pagination{
+	padding: 5px 0;
+}
+.ebrite-post-pagination a{
+	color: #e25439;
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+}
+
+.footer-area{
+	padding: 15px 0;
+	border-top: 1px solid #ddd;
+}
+.footer-area ul li a{
+	padding: 5px 15px;
+	color: #6c6b6b;
+}
+.footer-area ul li a:hover{
+	color: #e25439;
+}
+
+/* Team */
+.team-member-img{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	
+}
+.team-member-img img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.team-member-text{
+	text-align: center;
+}
+
+/* Service */
+
+.service-item{
+	background-color: #fff;
+	box-shadow: 0 0 10px #bdc3c7;
+	padding: 30px 10px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+.service-icon{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #e25439;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.service-icon i{
+	color: #fff;
+}
+.service-text{
+	text-align: center;
+}
+
+/* work */
+.work-item{
+	margin-bottom: 30px;
+}
+.work-button{
+	padding: 15px 0;
+	text-align: center;
+}
+.work-button button{
+	background-color: transparent;
+	border: 1px solid #e25439;
+	border-radius: 2px;
+	color: #e25439;
+}
+.work-button button.active{
+	background-color: #e25439;
+	color: #fff;
+}
+
+/* contact */
+.contact-form input:focus{
+	box-shadow: 0 0 0 0.2rem transparent;
+	outline: 0;
+	border-color: #ddd;
+}
+
+.contact-form input::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #e25439;
+}
+
+::selection {
+  color: #fff;
+  background: #e25439;
+}
+.contact-form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: red;
+}
+
+.contact-form input::-ms-input-placeholder { /* Microsoft Edge */
+ color: red;
+}
+
+/* Owl Carousel */
+.owl-nav{
+	display: none;
+}
+
+.owl-dots{
+	text-align: center;
+}
+.owl-dots .owl-dot{
+	width: 10px;
+	height: 10px;
+	background-color: #454444 !important;
+	margin: 0 5px;
+}
+.owl-dots .owl-dot.active{
+	background-color: #e25439 !important;
+}
+.owl-dots .owl-dot:first-child{
+	margin-left: 0 !important;
+}
+.owl-dots .owl-dot:last-child{
+	margin-right: 0 !important;
+}
+/* Bootstrap CSS */
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
